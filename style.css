@@ -1,10 +1,11 @@
 body{
-    background-color: orange;
+    background-color: #DBD8A9;
 }
 
 .header{
     text-align: center;
-    
+    background-color: #ddcaad;
+    padding: 50px;    
 }
 
 .header h1{
@@ -55,12 +56,16 @@ body{
 .img{        
     margin: 50px;        
     vertical-align: middle;
-    border-radius: 50px;    
+    border-radius: 50px;
+    background-color: #dbc39f;
+    padding: 10px;
 }
 
 .habilidades{
     text-align: center;
-    margin: 80px 20px 50px 20px;
+    margin: 80px 0px 50px 0px;
+    background-color: #ddcaad;
+    padding: 50px;
 }
 
 .habilidades h2{
@@ -71,6 +76,7 @@ body{
 .habilidades ul{
     list-style: inside;
     padding: 20px 50px 20px 50px;
+    line-height: 40px;
 }
 
 .list-style{
@@ -90,4 +96,16 @@ body{
 
 .sobre-min p{
     padding: 0px 0px 20px 0px;
+    line-height: 35px;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+    background-color: #ddcaad;
+    padding: 2px;
+}
+
+.button:hover{
+    color: red;
 }
