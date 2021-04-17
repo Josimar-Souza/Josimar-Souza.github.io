@@ -32,3 +32,33 @@ body{
 .header ul li a:hover{
     color: red;
 }
+
+.description{
+    text-align: center;    
+}
+
+.description h1{
+    margin: 50px 10px 50px 10px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.description h2{    
+    font-weight: 500;
+}
+
+.description p{
+    display: inline-block;
+    max-width: 500px;
+}
+
+.img{        
+    margin: 50px;        
+    vertical-align: middle;
+    border-radius: 50px;    
+}
+
+.habilidades{
+    text-align: center;
+    margin: 80px 20px 50px 20px;
+}
