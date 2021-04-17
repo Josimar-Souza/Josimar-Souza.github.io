@@ -1,0 +1,112 @@
+body{
+    background-color: #DBD8A9;
+}
+
+.header{
+    text-align: center;
+    background-color: #ddcaad;
+    padding: 50px;    
+}
+
+.header h1{
+    margin: 80px;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.header h2{    
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.header ul{
+    list-style: inside;    
+    padding: 5px 20px 5px 20px;
+    line-height: 30px;
+}
+
+.header ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.header ul li a:hover{
+    color: red;
+}
+
+.description{
+    text-align: center;    
+}
+
+.description h1{
+    margin: 50px 10px 50px 10px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.description h2{    
+    font-weight: 500;
+}
+
+.description p{
+    display: inline-block;
+    max-width: 500px;    
+}
+
+.img{        
+    margin: 50px;        
+    vertical-align: middle;
+    border-radius: 50px;
+    background-color: #dbc39f;
+    padding: 10px;
+}
+
+.habilidades{
+    text-align: center;
+    margin: 80px 0px 50px 0px;
+    background-color: #ddcaad;
+    padding: 50px 20px 50px 20px;     
+}
+
+.habilidades h2{
+    font-size: 50px;
+    font-weight: 500;       
+}
+
+.habilidades ul{
+    list-style: inside;
+    padding: 20px 50px 20px 50px;
+    line-height: 40px;
+}
+
+.list-style{
+    text-decoration: underline;
+}
+
+.sobre-min{
+    text-align: center;
+}
+
+.sobre-min h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin: 80px 50px 20px 50px;
+    padding: 20px;
+}
+
+.sobre-min p{
+    padding: 0px 0px 20px 0px;
+    line-height: 35px;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+    background-color: #dac09a;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.button:hover{
+    color: red;
+}
